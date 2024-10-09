@@ -15,7 +15,6 @@ left(90)
 #end of square 
 
 #drawing a door
-
 forward(70) 
 color("yellow")
 begin_fill()
@@ -39,33 +38,25 @@ end_fill()
 penup()
 color("blue")
 end_fill()
-
 penup()
 goto(20,125)
 pendown()
-
 left(210)
 forward(50)
-
 right(90)
 forward(50)
-
 left(270)
 forward(50)
-
 right(90)
 forward(50)
 #drawing another window
 penup()
 goto(125,125)
 pendown()
-
 left(180)
 forward(50)
-
 left(90)
 forward(50)
-
 left(90)
 forward(50)
 left(90)
