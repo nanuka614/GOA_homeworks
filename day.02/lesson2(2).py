@@ -18,3 +18,12 @@ age=14
 print(name)
 print(surname)
 print(age)
+
+name="nanuka"
+surname="dekanosidze"
+num1=14
+num2=15
+num3=1.4
+num4=1.5
+
+
