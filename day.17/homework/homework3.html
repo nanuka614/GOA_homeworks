@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form</title>
+    </head>
+    <body>
+        <h1>Application Form</h1>
+        <form>
+            <!-- First and Last Name -->
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName"><br><br>
+            <!-- Date of Birth and Age -->
+            <label for="birthdate">Date of birth:</label>
+            <input type="date" id="birthdate" name="birthdate">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age"><br><br>
+            <!-- Gender -->
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <!-- Email -->
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <!-- Position -->
+            <p>Positions Available:</p>
+            <input type="radio" id="junior" name="position" value="junior">
+            <label for="junior">Junior Developer</label>
+            <input type="radio" id="midLevel" name="position" value="midLevel">
+            <label for="midLevel">Mid-level Developer</label>
+            <input type="radio" id="senior" name="position" value="senior">
+            <label for="senior">Senior Developer</label><br><br>
+            <!-- Programming Languages -->
+            <p>Programming Languages:</p>
+            <input type="checkbox" id="java" name="language" value="java">
+            <label for="java">Java</label>
+            <input type="checkbox" id="javascript" name="language" value="javascript">
+            <label for="javascript">JavaScript</label>
+            <input type="checkbox" id="python" name="language" value="python">
+            <label for="python">Python</label><br><br>
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword"><br><br>
+            <!-- Submit and Reset Buttons -->
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>

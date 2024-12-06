@@ -24,7 +24,7 @@ correct_password = "123"
 user_password = input("Enter the password: ")
 # Keep asking until the user enters the correct password
 while user_password != correct_password:
-    user_password = input("Enter the password: ")# Prompt the user to enter the password
+    user_password = input("Enter the password: ")  # Prompt the user to enter the password
 
 print("Access granted!")
 
@@ -53,10 +53,10 @@ print("Access granted!")
 
 num = int(input("Enter a number to calculate its factorial: "))
 factorial = 1
-x=num
+i=num
 while i > 0:
     factorial *= i  # Multiply the current value of factorial by i
-    i -= 1           # Decrease i by 1
+    i -= 1    # Decrease i by 1
 
 print("The factorial is:", factorial)
 
