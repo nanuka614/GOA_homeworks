@@ -1,0 +1,55 @@
+import turtle
+
+# კვადრატი 1: (-300, 100)
+turtle.penup()
+turtle.goto(-300, 100)
+turtle.pendown()
+turtle.forward(200)  # ქვედა გვერდი
+turtle.left(90)
+turtle.forward(200)  # მარჯვენა გვერდი
+turtle.left(90)
+turtle.forward(200)  # ზედა გვერდი
+turtle.left(90)
+turtle.forward(200)  # მარცხენა გვერდი
+turtle.left(90)
+
+# კვადრატი 2: (100, 100)
+turtle.penup()
+turtle.goto(100, 100)
+turtle.pendown()
+turtle.forward(200)
+turtle.left(90)
+turtle.forward(200)
+turtle.left(90)
+turtle.forward(200)
+turtle.left(90)
+turtle.forward(200)
+turtle.left(90)
+
+# კვადრატი 3: (-300, -300)
+turtle.penup()
+turtle.goto(-300, -300)
+turtle.pendown()
+turtle.forward(200)
+turtle.left(90)
+turtle.forward(200)
+turtle.left(90)
+turtle.forward(200)
+turtle.left(90)
+turtle.forward(200)
+turtle.left(90)
+
+# კვადრატი 4: (100, -300)
+turtle.penup()
+turtle.goto(100, -300)
+turtle.pendown()
+turtle.forward(200)
+turtle.left(90)
+turtle.forward(200)
+turtle.left(90)
+turtle.forward(200)
+turtle.left(90)
+turtle.forward(200)
+turtle.left(90)
+
+turtle.done()
