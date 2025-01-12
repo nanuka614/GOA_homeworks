@@ -1,0 +1,43 @@
+#unique-button {
+    color: red; 
+}
+
+.shared-class {
+    color: blue; 
+}
+
+#block1 {
+    background-color: rgb(240, 128, 128); 
+    color: rgb(0, 0, 0); 
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#block2 {
+    background-color: rgb(135, 206, 250); 
+    color: rgb(0, 0, 0); 
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#block3 {
+    background-color: rgb(144, 238, 144); 
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#block4 {
+    background-color: rgb(240, 230, 140); 
+    color: rgb(85, 107, 47); 
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+#block5 {
+    background-color: rgb(255, 182, 193); 
+    color: rgb(199, 21, 133); 
+    padding: 10px;
+    margin-bottom: 10px;
+}
