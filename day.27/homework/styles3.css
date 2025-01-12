@@ -1,0 +1,122 @@
+/*  Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a2238; /* Dark background color */
+    color: #fff; /* White text color */
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1a2238; /* Matches the overall background */
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.join-btn {
+    background-color: #1e90ff; /* Blue button */
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.tagline {
+    color: #1e90ff; /* Blue text */
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.subtext {
+    margin-bottom: 30px;
+    color: #bbb; /* Light gray subtext */
+}
+
+.hero-buttons .btn {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1em;
+}
+
+.primary-btn {
+    background-color: #1e90ff; /* Bright blue */
+    color: #fff;
+}
+
+.secondary-btn {
+    border: 2px solid #1e90ff; /* Blue border */
+    color: #1e90ff;
+    background-color: transparent;
+}
+
+/* Cards Section */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.card {
+    background-color: #2a334a; /* Slightly lighter background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card .icon {
+    font-size: 3em;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.card p {
+    color: #bbb; /* Light gray text */
+}
