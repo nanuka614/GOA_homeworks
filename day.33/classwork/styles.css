@@ -1,0 +1,54 @@
+#div-block {
+    width: 300px;
+}
+
+#p1 {
+    text-align: right;
+    text-decoration: dashed #00ff00;
+}
+
+#p2 {
+    text-align: center;
+    text-decoration: line-through #000000;
+}
+
+p3 {
+    text-align: center;
+    text-decoration: underline #000000;
+}
+
+#p4 {
+    text-align: right;
+    text-decoration: dashed line-through #00ff00;
+}
+
+#p5 {
+    text-align: left;
+    text-decoration: underline #000000;
+}
+
+#p6 {
+    text-align: left;
+    text-decoration: overline #000000;
+}
+
+#p7 {
+    text-align: right;
+    text-decoration: overline #00ff00;
+}
+
+#p8{
+    text-align: center;
+    text-decoration: overline #555252;
+}
+
+#p9 {
+    text-align: right;
+    text-decoration: dashed underline #00ff00;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
