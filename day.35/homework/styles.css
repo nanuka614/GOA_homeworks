@@ -1,0 +1,47 @@
+a {
+    color: #91b0cf;
+    text-decoration: none; 
+    font-weight: bold; 
+    font-style: italic; 
+    text-transform: uppercase;
+}
+
+
+a:visited {
+    color: #9933cc; 
+}
+
+
+a:hover {
+    color: #ff6600; 
+    text-decoration: underline; 
+    background-color: #e0e0e0; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin: 20px 0;
+}
+
+
+th {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+    border: 2px solid #ddd; 
+}
+
+
+td {
+    padding: 10px;
+    text-align: center; 
+    border: 1px solid #ddd; 
+}
+
+
+table, th, td {
+    border: 1px solid #ddd; 
+}
