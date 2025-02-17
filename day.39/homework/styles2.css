@@ -1,0 +1,40 @@
+.margined-paragraph {
+    margin: 20px;
+}
+
+
+.styled-button {
+    padding: 10px 20px;
+    border: 2px solid #4CAF50;
+    background-color: #fff;
+    color: #4CAF50;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.styled-button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.shadowed-box {
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+
+.spaced-list li {
+    margin-bottom: 20px;
+}
+
+
+.negative-margin-box {
+    margin-top: -20px; 
+    padding: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
