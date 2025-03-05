@@ -1,0 +1,42 @@
+.container {
+    width: 400px;
+    border: 5px solid white;
+    background-color: black;
+    padding: 5px;
+    color: azure;
+}
+
+.main {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.header {
+    background-color: #00aeef;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #e30613;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sidebar {
+    background-color: #662d91;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.footer {
+    background-color: #808080;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}

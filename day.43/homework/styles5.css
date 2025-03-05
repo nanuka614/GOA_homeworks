@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 400px;
+    margin: 20px;
+    border: 5px solid white;
+    background-color: black;
+    padding: 5px;
+}
+
+.header, .hero, .content, .sidebar {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.header {
+    background-color: #00aeef;
+}
+
+.hero {
+    background-color: #e30613;
+}
+
+.content {
+    background-color: #39b54a;
+}
+
+.sidebar {
+    background-color: #662d91;
+}
+
+

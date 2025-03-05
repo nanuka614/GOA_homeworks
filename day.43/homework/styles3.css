@@ -1,0 +1,64 @@
+body {
+    font-family:Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+header footer {
+    width: 100px;
+    padding: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+
+header {
+    background-color: #FF4500;
+}
+
+footer {
+    background-color: #FF1493;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    height: 300px;
+}
+
+
+.left-sidebar {
+    flex: 1;
+    background-color: #1E90FF;
+    PADDING: 20px;
+    color: white;
+}
+
+.main-content {
+    flex: 2;
+    background-color: #4B0082;
+    PADDING: 20px;
+    color: white;
+}
+
+.right-sidebar {
+    flex: 1;
+    background-color: #008000;
+    PADDING: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
