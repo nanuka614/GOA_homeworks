@@ -1,0 +1,33 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#header {
+    background-color: blue;
+    text-align: center;
+}
+
+#footer {
+    background-color: blue;
+    text-align: center;
+}
+
+#main {
+    display: flex;
+}
+
+#menu {
+    background-color: red;
+    color: white;
+}
+
+#content {
+    background-color: orange;
+}
+
+#footer {
+    background-color: aqua;
+    text-align: center;
+}
