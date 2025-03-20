@@ -1,0 +1,67 @@
+#par-div {
+    height: 700px;
+    width: 700px;
+    background-color: aquamarine;
+    position: relative;
+}
+
+#chld-div {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 325px;
+    top: 325px;
+}
+
+#div1 {
+    height: 500px;
+    width: 1000px;
+    border: 5px solid black;
+    border-radius: 25px;
+    background-image: url("image.png");
+    background-size: cover; 
+    background-position: center;
+}
+
+
+#div2 {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+
+
+#red {
+    background-color: red;
+    top: 10%;
+    left: 25%;
+
+}
+
+#green {
+    background-color: green;
+    top: 10%;
+    right: 25%;
+}
+
+#blue {
+    background-color: blue;
+    bottom: 10%;
+    left: 25%;
+}
+
+#purple {
+    background-color: purple;
+    bottom: 10%;
+    right: 25%;
+}
+
+#footer {
+    background-color: gray;
+    top: 50%;
+    left: 50%;
+}
+
