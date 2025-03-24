@@ -1,0 +1,20 @@
+.box :active {
+    transform: rotate(30deg)
+}
+
+#div {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    color: white;
+    border: 1px solid blue;
+    font-size: 20px;
+    background-color: black;
+    transition: font-size 1s, color 2s, background-color 2s;
+}
+
+#div:active {
+    font-size: 25px;
+    color: black;
+    background-color: white;
+}

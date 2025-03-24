@@ -1,0 +1,124 @@
+#button {
+    background-color: greenyellow;
+    color: white;
+    font-weight: bold;
+    border: 3px solid green;
+    transition: background-color 1s;
+}
+
+#button:hover {
+    background-color: green;
+}
+
+#link {
+    background-color: lightblue;
+    border: 2px dashed blue;
+    transition: background-color 0.5s;
+}
+
+#link:hover {
+    background-color: blue;
+}
+
+#img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.5s;
+}
+
+#img:hover {
+    transform: scale(2);
+}
+
+
+#p {
+    color: red;
+    border: none;
+    transition: color 0.3s;
+}
+
+#p:hover {
+    color: black;
+}
+
+
+#div {
+    background-color: black;
+    border-color: blueviolet;
+    border-width: 5px;
+    transform: border-width 1s;
+}
+
+#div:hover {
+    border-width: 10px;
+}
+
+.press-button {
+    font-size: 16px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    transition: transform 0.1s , box-shadow 0.1s ;
+}
+
+
+.press-button:active {
+    transform: scale(0.95); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+
+.fade-box {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    transition: opacity 0.3s;
+}
+
+.fade-box:hover {
+    opacity: 0.5;
+}
+
+
+.padding-box {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    transition: padding 0.3s;
+}
+
+.padding-box:hover {
+    padding: 30px;
+}
+
+
+.i {
+    font-size: 40px;
+    transition: transform 0.3s;
+}
+
+.i:hover {
+    transform: rotate(30deg);
+}
+
+
+
+.shadow-box {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+
+.shadow-box:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
