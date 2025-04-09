@@ -1,0 +1,156 @@
+#main-div {
+    width: 800px;
+    height: 600px;
+    gap: 50px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    background-color: white;
+    position: relative;
+}
+
+.black {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#one-1,
+#three-2,
+#five-5 {
+    left: 85px;
+    top: 85px;
+}
+
+
+#two-1,
+#three-1,
+#four-1,
+#five-1,
+#six-1 {
+    left: 20px;
+    top: 20px;
+}
+
+#two-2,
+#three-3,
+#four-3,
+#five-3,
+#six-4 {
+    right: 20px;
+    bottom: 20px;
+}
+
+
+#four-2,
+#five-2,
+#six-2 {
+    right: 20px;
+    top: 20px;
+}
+
+#four-4,
+#five-4,
+#six-5 {
+    left: 20px;
+    bottom: 20px;
+}
+
+#six-3 {
+    top: 85px;
+    right: 20px
+}
+
+
+#six-6 {
+    top: 85px;
+    left: 20px;
+}
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    height: 200px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background: gold;
+    border-radius: 50%;
+    position: absolute;
+    animation: grow-shrink 5s infinite;
+    opacity: 0.5;
+}
+
+
+.circle:nth-child(1) {
+    left: 0;
+    top: 0;
+    animation-delay: 0s;
+}
+
+.circle:nth-child(2) {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    animation-delay: 1s;
+}
+
+.circle:nth-child(3) {
+    right: 0;
+    top: 100px;
+    animation-delay: 2s;
+}
+
+.circle:nth-child(4) {
+    left: 0;
+    top: 150px;
+    animation-delay: 3s;
+}
+
+.circle:nth-child(5) {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 200px;
+    animation-delay: 4s;
+}
+
+@keyframes grow-shrink {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+
+    50% {
+        transform: scale(2);
+        opacity: 1;
+    }
+}
