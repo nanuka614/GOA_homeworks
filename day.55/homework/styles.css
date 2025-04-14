@@ -1,0 +1,206 @@
+#div1 {
+    background-color: aqua;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 20px;
+    animation-name: animation1;
+    animation-duration: 3s;
+}
+
+@keyframes animation1 {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(300px);
+        ;
+    }
+}
+
+
+#div2 {
+    background-color: blue;
+    height: 70px;
+    width: 70px;
+    animation-name: animation2;
+    animation-duration: 5s;
+}
+
+@keyframes animation2 {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+#div3 {
+    background-color: rgb(217, 255, 0);
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+    border-right: 3px solid red;
+    border-left: 3px solid blue;
+    animation-name: animation3;
+    animation-duration: 3s;
+}
+
+@keyframes animation3 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#div4 {
+    background-color: pink;
+    height: 70px;
+    width: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    animation-name: animation4;
+    animation-duration: 3s;
+}
+
+@keyframes animation4 {
+    from {
+        transform: scale(2);
+    }
+
+    to {
+        transform: scale(0.5);
+    }
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background: orange;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    animation: bounce 1s ease-in-out 3;
+}
+
+@keyframes bounce {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 100px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 5px solid lightgray;
+    border-top: 5px solid blue;
+    margin-top: 50px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.fade-in {
+    width: 100px;
+    height: 100px;
+    background: green;
+    animation: fade 3s forwards;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.delayed-box {
+    width: 100px;
+    height: 100px;
+    background: purple;
+    margin-top: 100px;
+    animation: grow 2s ease-in-out 1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grow {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}
+
+
+.box {
+    width: 50px;
+    height: 50px;
+    background: green;
+    margin: 10px;
+    animation: moveRight 1s forwards;
+}
+
+.delay1 {
+    animation-delay: 0s;
+}
+
+.delay2 {
+    animation-delay: 1s;
+}
+
+.delay3 {
+    animation-delay: 2s;
+}
+
+@keyframes moveRight {
+    to {
+        transform: translateX(100px);
+    }
+}
+
+
+.fade-effect {
+    width: 100px;
+    height: 100px;
+    background: black;
+    animation: fadeOut 10s forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
