@@ -1,0 +1,21 @@
+#par {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#child {
+    height: 100px;
+    flex: 1;
+    margin: 5px;
+    line-height: 100px;
+    background-color: #29a2ee;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .parent {
+        flex-direction: column;
+        }
+}
