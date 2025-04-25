@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+#parent {
+    width: 1500px;
+    height: 800px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr) ;
+}
+
+#header {
+    grid-area: 1/1/2/4;
+    background-color: rgb(155, 248, 15);
+}
+
+#sidebar {
+    grid-area: 2/1/4/2;
+    background-color: rgb(155, 248, 15);
+
+}
+
+#content1 {
+    grid-area: 2/2/3/4;
+    background-color: rgb(155, 248, 15);
+}
+
+#content2 {
+    grid-area: 3/2/4/3;
+    background-color: rgb(155, 248, 15);
+}
+
+#content3 {
+    grid-area: 3/3/4/4;
+    background-color: rgb(155, 248, 15);
+}
+
+#footer {
+    grid-area: 4/1/5/4;
+    background-color: rgb(155, 248, 15);
+}
