@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>homework</title>
+</head>
+
+<body>
+
+    <h1>JavaScript Practice</h1>
+
+    <button onclick="favoriteHobby()">Favorite Hobby</button><br><br>
+
+
+    <button onclick="fullName()">Full Name</button><br><br>
+
+
+    <button onclick="updateParagraph()">Update Paragraph</button>
+    <p id="myParagraph">This is the original text.</p><br>
+
+
+    <button onclick="favoriteEmoji()">Favorite Emoji</button><br><br>
+
+
+    <button onclick="changeTitle()">Change Page Title</button><br><br>
+
+
+    <form onsubmit="showInputValue(); return false;">
+        <label>Enter some text:</label>
+        <input type="text" id="textInput">
+        <button type="submit">Show Alert</button>
+    </form><br>
+
+
+    <form onsubmit="changeBackgroundColor(); return false;">
+        <label>Select background color:</label>
+        <input type="color" id="colorInput">
+        <button type="submit">Change Background</button>
+    </form>
+
+    <script>
+        function favoriteHobby() {
+            var hobby = prompt("What is your favorite hobby?");
+            if (hobby !== null && hobby !== "") {
+                alert("Your favorite hobby is: " + hobby);
+            } else {
+                alert("You didn't enter a hobby.");
+            }
+        }
+
+
+
+        function updateParagraph() {
+            var message = prompt("Enter a new message for the paragraph:");
+            if (message !== null) {
+                document.getElementById("myParagraph").textContent = message;
+            }
+        }
+
+
+
+        function changeTitle() {
+            var newTitle = prompt("Enter a new title for the page:");
+            if (newTitle !== null && newTitle !== "") {
+                document.title = newTitle;
+            }
+        }
+
+
+        function showInputValue() {
+            var inputValue = document.getElementById("textInput").value;
+            alert("You entered: " + inputValue);
+        }
+
+
+        function changeBackgroundColor() {
+            var color = document.getElementById("colorInput").value;
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+
+</body>
+
+</html>
